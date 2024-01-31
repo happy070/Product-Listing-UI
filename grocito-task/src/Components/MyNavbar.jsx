@@ -19,9 +19,10 @@ const MyNavbar = () => {
         <Container fluid>
           <Navbar.Brand>
             <img
+              href="/"
               src={img}
-              width="150"
-              height="70"
+              width="160"
+              height="80"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
@@ -64,7 +65,7 @@ const MyNavbar = () => {
                 aria-label="Search"
                 style={{ border: "1px solid #000" }}
               />
-              <Button variant="outline-success">Search</Button>
+              <Button variant="primary">Search</Button>
             </Form>
           </Navbar.Collapse>
         </Container>
