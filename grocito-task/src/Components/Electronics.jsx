@@ -64,7 +64,7 @@ const Electronics = () => {
         />
         <CardItem
           imageUrl={Heater}
-          title="USHA Mixer"
+          title="USHA Heater"
           body="High-quality wireless audio with BLUETOOTH® and LDAC technology."
           price={2000}
           discountPrice={1599}
