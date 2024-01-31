@@ -56,7 +56,7 @@ const Homepage = () => {
                     : commonStyle
                 }
               >
-                <strong>Electronics &nbsp;</strong>
+                <strong className="icon">Electronics &nbsp;</strong>
                 <span>
                   <img
                     src={elecIcon}
@@ -75,7 +75,7 @@ const Homepage = () => {
                   selectedCategory === "Clothing" ? selectedStyle : commonStyle
                 }
               >
-                <strong>Clothing &nbsp;</strong>
+                <strong className="icon">Clothing &nbsp;</strong>
                 <span>
                   <img src={clothe} style={{ height: 20, width: 20 }} alt="#" />
                 </span>
@@ -92,7 +92,7 @@ const Homepage = () => {
                   selectedCategory === "Grocery" ? selectedStyle : commonStyle
                 }
               >
-                <strong>Grocery &nbsp;</strong>
+                <strong className="icon">Grocery &nbsp;</strong>
                 <span>
                   <img
                     src={groceryIcon}
@@ -111,7 +111,7 @@ const Homepage = () => {
                   selectedCategory === "Medicine" ? selectedStyle : commonStyle
                 }
               >
-                <strong>Medicines &nbsp;</strong>
+                <strong className="icon">Medicines &nbsp;</strong>
                 <span>
                   <img
                     src={medicineIcon}
@@ -131,7 +131,7 @@ const Homepage = () => {
               selectedCategory === "Jewellery" ? selectedStyle : commonStyle
             }
           >
-            <strong>Jewellery &nbsp;</strong>
+            <strong className="icon">Jewellery &nbsp;</strong>
             <span>
               <img
                 src={JewelleryIcon}
