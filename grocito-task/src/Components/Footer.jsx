@@ -77,10 +77,10 @@ const Footer = () => {
                   </h3>
                 </div>
                 <div style={{ fontFamily: "Poppins, sans-serif" }}>
-                  <h5>ContactUs</h5>
-                  <h5>Privacy Policy</h5>
-                  <h5>Cancellation Policy</h5>
-                  <h5>Terms & Conditions</h5>
+                  <h5 className="links">ContactUs</h5>
+                  <h5 className="links">Privacy Policy</h5>
+                  <h5 className="links">Cancellation Policy</h5>
+                  <h5 className="links">Terms & Conditions</h5>
                 </div>
               </div>
             </Col>

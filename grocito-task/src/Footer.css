@@ -23,6 +23,9 @@
     margin-bottom: 25px;
   }
   /* Add more custom styles for smaller screens as needed */
+  .links{
+    font-size: 14px !important;
+  }
 }
 
 /* Add any additional custom styling for the footer */
