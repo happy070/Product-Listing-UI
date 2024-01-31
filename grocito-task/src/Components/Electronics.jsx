@@ -6,7 +6,7 @@ import mixer from "../assets/Electronics/Mixer.jpg";
 import speaker from "../assets/Electronics/speaker.jpg";
 import refrigerator from "../assets/Electronics/Refrigerator1.avif";
 import TV from "../assets/Electronics/TV.avif";
-import WashingMachine from "../assets/Electronics/Washingmachine.webp";
+import WashingMachine from "../assets/Electronics/washingmachine.webp";
 import Heater from "../assets/Electronics/Heater1.jpg";
 
 const Electronics = () => {
